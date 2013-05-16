@@ -21,7 +21,6 @@
 #import <UIKit/UIKit.h>
 #import "NSArray+Comparisons.h"
 #import "NSDictionary+Extensions.h"
-#import "CDVNotification.h"
 
 @implementation CDVContactsPicker
 

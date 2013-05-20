@@ -41,7 +41,6 @@
 #import "CDVSplashScreen.h"
 #import "CDVWhitelist.h"
 #import "CDVLocalStorage.h"
-#import "CDVInAppBrowser.h"
 #import "CDVScreenOrientationDelegate.h"
 #import "CDVTimer.h"
 

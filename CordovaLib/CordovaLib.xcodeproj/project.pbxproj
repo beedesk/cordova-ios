@@ -22,8 +22,6 @@
 		30392E4E14F4FCAB00B9E0B8 /* CDVAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 30392E4D14F4FCAB00B9E0B8 /* CDVAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3062D120151D0EDB000D9128 /* UIDevice+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3062D11E151D0EDB000D9128 /* UIDevice+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3062D122151D0EDB000D9128 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062D11F151D0EDB000D9128 /* UIDevice+Extensions.m */; };
-		3073E9E91656D37700957977 /* CDVInAppBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3073E9E71656D37700957977 /* CDVInAppBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3073E9EA1656D37700957977 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3073E9E81656D37700957977 /* CDVInAppBrowser.m */; };
 		3073E9ED1656D51200957977 /* CDVScreenOrientationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3073E9EC1656D51200957977 /* CDVScreenOrientationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307A8F9E1385A2EC00E43782 /* CDVConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 307A8F9C1385A2EC00E43782 /* CDVConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307A8F9F1385A2EC00E43782 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 307A8F9D1385A2EC00E43782 /* CDVConnection.m */; };
@@ -104,8 +102,6 @@
 		30392E4D14F4FCAB00B9E0B8 /* CDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVAvailability.h; path = Classes/CDVAvailability.h; sourceTree = "<group>"; };
 		3062D11E151D0EDB000D9128 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Extensions.h"; path = "Classes/UIDevice+Extensions.h"; sourceTree = "<group>"; };
 		3062D11F151D0EDB000D9128 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Extensions.m"; path = "Classes/UIDevice+Extensions.m"; sourceTree = "<group>"; };
-		3073E9E71656D37700957977 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = Classes/CDVInAppBrowser.h; sourceTree = "<group>"; };
-		3073E9E81656D37700957977 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = Classes/CDVInAppBrowser.m; sourceTree = "<group>"; };
 		3073E9EC1656D51200957977 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVScreenOrientationDelegate.h; path = Classes/CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
 		307A8F9C1385A2EC00E43782 /* CDVConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = Classes/CDVConnection.h; sourceTree = "<group>"; };
 		307A8F9D1385A2EC00E43782 /* CDVConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = Classes/CDVConnection.m; sourceTree = "<group>"; };
@@ -309,8 +305,6 @@
 				3E76876C156A90EE00EB6FA3 /* CDVLogger.h */,
 				9D76CF3A1625A4C50008A0F6 /* CDVGlobalization.h */,
 				9D76CF3B1625A4C50008A0F6 /* CDVGlobalization.m */,
-				3073E9E71656D37700957977 /* CDVInAppBrowser.h */,
-				3073E9E81656D37700957977 /* CDVInAppBrowser.m */,
 				3073E9EC1656D51200957977 /* CDVScreenOrientationDelegate.h */,
 				30F39309169F839700B22307 /* CDVJSON.h */,
 				30F3930A169F839700B22307 /* CDVJSON.m */,
@@ -392,7 +386,6 @@
 				EB3B3547161CB44D003DBE7D /* CDVCommandQueue.h in Headers */,
 				EB3B357C161F2A45003DBE7D /* CDVCommandDelegateImpl.h in Headers */,
 				9D76CF3C1625A4C50008A0F6 /* CDVGlobalization.h in Headers */,
-				3073E9E91656D37700957977 /* CDVInAppBrowser.h in Headers */,
 				3073E9ED1656D51200957977 /* CDVScreenOrientationDelegate.h in Headers */,
 				F858FBC6166009A8007DA594 /* CDVConfigParser.h in Headers */,
 				30F3930B169F839700B22307 /* CDVJSON.h in Headers */,
@@ -485,7 +478,6 @@
 				EB3B3548161CB44D003DBE7D /* CDVCommandQueue.m in Sources */,
 				EB3B357D161F2A45003DBE7D /* CDVCommandDelegateImpl.m in Sources */,
 				9D76CF3D1625A4C50008A0F6 /* CDVGlobalization.m in Sources */,
-				3073E9EA1656D37700957977 /* CDVInAppBrowser.m in Sources */,
 				F858FBC7166009A8007DA594 /* CDVConfigParser.m in Sources */,
 				30F3930C169F839700B22307 /* CDVJSON.m in Sources */,
 				EB96673C16A8970A00D86CDF /* CDVUserAgentUtil.m in Sources */,

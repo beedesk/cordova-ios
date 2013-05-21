@@ -23,8 +23,6 @@
 		3073E9ED1656D51200957977 /* CDVScreenOrientationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3073E9EC1656D51200957977 /* CDVScreenOrientationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307A8F9E1385A2EC00E43782 /* CDVConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 307A8F9C1385A2EC00E43782 /* CDVConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307A8F9F1385A2EC00E43782 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 307A8F9D1385A2EC00E43782 /* CDVConnection.m */; };
-		30B39EBE13D0268B0009682A /* CDVSplashScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B39EBC13D0268B0009682A /* CDVSplashScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30B39EBF13D0268B0009682A /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B39EBD13D0268B0009682A /* CDVSplashScreen.m */; };
 		30C5F1DF15AF9E950052A00D /* CDVDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C5F1DD15AF9E950052A00D /* CDVDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30C5F1E015AF9E950052A00D /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C5F1DE15AF9E950052A00D /* CDVDevice.m */; };
 		30C684801406CB38004C1A8E /* CDVWhitelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C6847E1406CB38004C1A8E /* CDVWhitelist.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,8 +99,6 @@
 		3073E9EC1656D51200957977 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVScreenOrientationDelegate.h; path = Classes/CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
 		307A8F9C1385A2EC00E43782 /* CDVConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = Classes/CDVConnection.h; sourceTree = "<group>"; };
 		307A8F9D1385A2EC00E43782 /* CDVConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = Classes/CDVConnection.m; sourceTree = "<group>"; };
-		30B39EBC13D0268B0009682A /* CDVSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = Classes/CDVSplashScreen.h; sourceTree = "<group>"; };
-		30B39EBD13D0268B0009682A /* CDVSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = Classes/CDVSplashScreen.m; sourceTree = "<group>"; };
 		30C5F1DD15AF9E950052A00D /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = Classes/CDVDevice.h; sourceTree = "<group>"; };
 		30C5F1DE15AF9E950052A00D /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = Classes/CDVDevice.m; sourceTree = "<group>"; };
 		30C6847E1406CB38004C1A8E /* CDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVWhitelist.h; path = Classes/CDVWhitelist.h; sourceTree = "<group>"; };
@@ -264,8 +260,6 @@
 				30C684931407044A004C1A8E /* CDVURLProtocol.m */,
 				30C6847E1406CB38004C1A8E /* CDVWhitelist.h */,
 				30C6847F1406CB38004C1A8E /* CDVWhitelist.m */,
-				30B39EBC13D0268B0009682A /* CDVSplashScreen.h */,
-				30B39EBD13D0268B0009682A /* CDVSplashScreen.m */,
 				30E33AF013A7E24B00594D64 /* CDVPlugin.h */,
 				30E33AF113A7E24B00594D64 /* CDVPlugin.m */,
 				307A8F9C1385A2EC00E43782 /* CDVConnection.h */,
@@ -362,7 +356,6 @@
 				1F584B9B1385A28A00ED25E8 /* CDVCapture.h in Headers */,
 				30E33AF213A7E24B00594D64 /* CDVPlugin.h in Headers */,
 				302965BC13A94E9D007046C5 /* CDVDebug.h in Headers */,
-				30B39EBE13D0268B0009682A /* CDVSplashScreen.h in Headers */,
 				30E563CF13E217EC00C949AA /* NSMutableArray+QueueAdditions.h in Headers */,
 				30C684801406CB38004C1A8E /* CDVWhitelist.h in Headers */,
 				30C684941407044B004C1A8E /* CDVURLProtocol.h in Headers */,
@@ -456,7 +449,6 @@
 				307A8F9F1385A2EC00E43782 /* CDVConnection.m in Sources */,
 				1F584B9C1385A28A00ED25E8 /* CDVCapture.m in Sources */,
 				30E33AF313A7E24B00594D64 /* CDVPlugin.m in Sources */,
-				30B39EBF13D0268B0009682A /* CDVSplashScreen.m in Sources */,
 				30E563D013E217EC00C949AA /* NSMutableArray+QueueAdditions.m in Sources */,
 				30C684821406CB38004C1A8E /* CDVWhitelist.m in Sources */,
 				30C684961407044B004C1A8E /* CDVURLProtocol.m in Sources */,

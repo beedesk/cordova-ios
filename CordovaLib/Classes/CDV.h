@@ -37,7 +37,6 @@
 #import "CDVPluginResult.h"
 #import "CDVReachability.h"
 #import "CDVSound.h"
-#import "CDVSplashScreen.h"
 #import "CDVWhitelist.h"
 #import "CDVLocalStorage.h"
 #import "CDVScreenOrientationDelegate.h"

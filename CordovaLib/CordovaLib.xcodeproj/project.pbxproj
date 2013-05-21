@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F2BECC013F9785B00A93BF6 /* CDVBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2BECBE13F9785B00A93BF6 /* CDVBattery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F2BECC113F9785B00A93BF6 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BECBF13F9785B00A93BF6 /* CDVBattery.m */; };
 		1F3C04CE12BC247D004F9E10 /* CDVContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3C04CC12BC247D004F9E10 /* CDVContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F3C04CF12BC247D004F9E10 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C04CD12BC247D004F9E10 /* CDVContact.m */; };
 		1F584B9B1385A28A00ED25E8 /* CDVCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F584B991385A28900ED25E8 /* CDVCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,8 +84,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F2BECBE13F9785B00A93BF6 /* CDVBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVBattery.h; path = Classes/CDVBattery.h; sourceTree = "<group>"; };
-		1F2BECBF13F9785B00A93BF6 /* CDVBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVBattery.m; path = Classes/CDVBattery.m; sourceTree = "<group>"; };
 		1F3C04CC12BC247D004F9E10 /* CDVContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVContact.h; path = Classes/CDVContact.h; sourceTree = "<group>"; };
 		1F3C04CD12BC247D004F9E10 /* CDVContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVContact.m; path = Classes/CDVContact.m; sourceTree = "<group>"; };
 		1F584B991385A28900ED25E8 /* CDVCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVCapture.h; path = Classes/CDVCapture.h; sourceTree = "<group>"; };
@@ -268,8 +264,6 @@
 				30C684931407044A004C1A8E /* CDVURLProtocol.m */,
 				30C6847E1406CB38004C1A8E /* CDVWhitelist.h */,
 				30C6847F1406CB38004C1A8E /* CDVWhitelist.m */,
-				1F2BECBE13F9785B00A93BF6 /* CDVBattery.h */,
-				1F2BECBF13F9785B00A93BF6 /* CDVBattery.m */,
 				30B39EBC13D0268B0009682A /* CDVSplashScreen.h */,
 				30B39EBD13D0268B0009682A /* CDVSplashScreen.m */,
 				30E33AF013A7E24B00594D64 /* CDVPlugin.h */,
@@ -370,7 +364,6 @@
 				302965BC13A94E9D007046C5 /* CDVDebug.h in Headers */,
 				30B39EBE13D0268B0009682A /* CDVSplashScreen.h in Headers */,
 				30E563CF13E217EC00C949AA /* NSMutableArray+QueueAdditions.h in Headers */,
-				1F2BECC013F9785B00A93BF6 /* CDVBattery.h in Headers */,
 				30C684801406CB38004C1A8E /* CDVWhitelist.h in Headers */,
 				30C684941407044B004C1A8E /* CDVURLProtocol.h in Headers */,
 				8852C43A14B65FD800F0E735 /* CDVViewController.h in Headers */,
@@ -465,7 +458,6 @@
 				30E33AF313A7E24B00594D64 /* CDVPlugin.m in Sources */,
 				30B39EBF13D0268B0009682A /* CDVSplashScreen.m in Sources */,
 				30E563D013E217EC00C949AA /* NSMutableArray+QueueAdditions.m in Sources */,
-				1F2BECC113F9785B00A93BF6 /* CDVBattery.m in Sources */,
 				30C684821406CB38004C1A8E /* CDVWhitelist.m in Sources */,
 				30C684961407044B004C1A8E /* CDVURLProtocol.m in Sources */,
 				8852C43C14B65FD800F0E735 /* CDVViewController.m in Sources */,

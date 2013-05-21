@@ -59,9 +59,6 @@
     <feature name="Capture">
       <param name="ios-package" value="CDVCapture"/>
     </feature>
-    <feature name="Battery">
-      <param name="ios-package" value="CDVBattery"/>
-    </feature>
     <feature name="SplashScreen">
       <param name="ios-package" value="CDVSplashScreen"/>
     </feature>

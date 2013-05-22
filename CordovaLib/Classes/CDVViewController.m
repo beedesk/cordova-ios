@@ -262,7 +262,6 @@
 
     // /////////////////
 
-    NSNumber* enableLocation = [self.settings objectForKey:@"EnableLocation"];
     NSString* enableViewportScale = [self.settings objectForKey:@"EnableViewportScale"];
     NSNumber* allowInlineMediaPlayback = [self.settings objectForKey:@"AllowInlineMediaPlayback"];
     BOOL mediaPlaybackRequiresUserAction = YES;  // default value

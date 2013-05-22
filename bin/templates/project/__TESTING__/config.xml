@@ -44,9 +44,6 @@
     <feature name="Camera">
       <param name="ios-package" value="CDVCamera"/>
     </feature>
-    <feature name="Contacts">
-      <param name="ios-package" value="CDVContacts"/>
-    </feature>
     <feature name="File">
       <param name="ios-package"  value="CDVFile"/>
     </feature>

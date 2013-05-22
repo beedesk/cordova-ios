@@ -28,8 +28,6 @@
 #import "CDVCamera.h"
 #import "CDVCapture.h"
 #import "CDVConnection.h"
-#import "CDVContact.h"
-#import "CDVContacts.h"
 #import "CDVDebug.h"
 #import "CDVDevice.h"
 #import "CDVFile.h"
